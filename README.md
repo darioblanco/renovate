@@ -1,2 +1,3 @@
 # renovate
-Renovate bot alpine docker image
+
+Renovate bot for: self hosted Gitlab alpine docker image just for node.

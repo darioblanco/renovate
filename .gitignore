@@ -1,0 +1,4 @@
+node_modules
+renovate.log
+
+docker-compose.yml

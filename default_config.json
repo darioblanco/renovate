@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "prHourlyLimit": 3,
+  "rangeStrategy": "bump",
+  "docker": {
+    "enabled": false
+  },
+  "meteor": {
+    "enabled": false
+  },
+  "gomod": {
+    "enabled": false
+  },
+  "gitlabci": {
+    "enabled": false
+  }
+}
