@@ -4,6 +4,7 @@
   ],
   "prHourlyLimit": 3,
   "rangeStrategy": "bump",
+  "branchPrefix": "renovate-",
   "docker": {
     "enabled": false
   },
