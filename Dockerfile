@@ -1,4 +1,4 @@
-FROM node:11.6.0-alpine
+FROM node:12.3.1-alpine
 LABEL maintainer="development@minddoc.com"
 
 # Install dependecies
