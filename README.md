@@ -1,3 +1,13 @@
 # renovate
 
-Renovate bot for: self hosted Gitlab alpine docker image just for node.
+Self hosted renovate bot alpine docker image
+
+# Configuration variables
+
+* ENDPOINT
+* TOKEN
+* PLATFORM
+* LOG_LEVEL
+* BINARY_SOURCE
+* REPOSITORIES
+* ONBOARDING_CONFIG_PATH
