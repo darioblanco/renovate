@@ -4,10 +4,12 @@ Self hosted renovate bot alpine docker image
 
 # Configuration variables
 
-* ENDPOINT
-* TOKEN
-* PLATFORM
-* LOG_LEVEL
+* BASE_BRANCHES
 * BINARY_SOURCE
-* REPOSITORIES
+* LOG_LEVEL
+* LOG_LEVEL
 * ONBOARDING_CONFIG_PATH
+* PLATFORM
+* REPOSITORIES
+* TOKEN
+* TRUST_LEVEL
