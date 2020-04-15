@@ -2,7 +2,7 @@
 
 Self hosted renovate bot alpine docker image
 
-# Configuration variables
+## Configuration variables
 
 * BASE_BRANCHES
 * BINARY_SOURCE

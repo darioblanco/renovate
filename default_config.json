@@ -1,20 +1,3 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "prHourlyLimit": 3,
-  "rangeStrategy": "bump",
-  "branchPrefix": "renovate-",
-  "docker": {
-    "enabled": false
-  },
-  "meteor": {
-    "enabled": false
-  },
-  "gomod": {
-    "enabled": false
-  },
-  "gitlabci": {
-    "enabled": false
-  }
+  "extends": ["config:base"]
 }
