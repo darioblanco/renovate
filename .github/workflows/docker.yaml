@@ -46,5 +46,6 @@ jobs:
         name: ${{ env.DOCKER_HUB_PROJECT }}/${{ env.APP }}
         username: ${{ env.DOCKER_USER }}
         tags: latest
+        buildargs: APP,VERSION
         password: ${{ env.DOCKER_PASSWORD }}
         cache: true

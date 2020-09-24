@@ -1,6 +1,9 @@
 FROM node:lts-alpine
 LABEL maintainer="development@minddoc.com"
 
+ARG VERSION=unknown
+ENV VERSION=$VERSION
+
 # Ruby gems
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 ADD gemrc /root/.gemrc
@@ -56,7 +59,7 @@ RUN wget --no-verbose https://services.gradle.org/distributions/gradle-$GRADLE_V
 
 # Renovate client setup
 USER node
-RUN npm i -g renovate
+RUN npm i -g renovate@$VERSION
 USER root
 WORKDIR /usr/src/app
 COPY renovate.js default_config.json ./
